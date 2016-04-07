@@ -22,8 +22,6 @@ class Monitor(Student):
     def __init__(self):
         print "i am monitor of class"
 
-    def __init__(self, name):
-        self.myname = name
 
     def hellom(self):
         print "wassup dude !!!"
