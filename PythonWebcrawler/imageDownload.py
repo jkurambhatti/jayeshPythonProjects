@@ -16,3 +16,4 @@ def download_image_from_url(url):
 
 
 download_image_from_url("https://qph.ec.quoracdn.net/main-qimg-298f0a1bce6b5fbbb05d2cb5cf3a1e6d")
+download_image_from_url("http://static.ddmcdn.com/gif/blogs/dnews-files-2015-07-sun-x-rays-670x440-150709-jpg.jpg")
