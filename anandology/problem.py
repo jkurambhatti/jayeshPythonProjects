@@ -50,9 +50,19 @@
 
 # Write a function extsort to sort a list of files based on extension.
 
-def extsort(l):
-    l.sort(key=lambda x: x.split('.')[-1])
-    print l
+# def extsort(l):
+#     l.sort(key=lambda x: x.split('.')[-1])
+#     print l
+#
+#
+# print extsort(['a.c', 'a.py', 'b.py', 'bar.txt', 'foo.txt', 'x.c'])
 
 
-print extsort(['a.c', 'a.py', 'b.py', 'bar.txt', 'foo.txt', 'x.c'])
+#reading a files
+# open("problem.py").read()
+#
+# #we can also specify the mode in which to open the file like read mode, write mode, append mode
+#
+# open("problem.py", "r")
+# open("problem.py", "w")
+# open("problem.py", "a")
